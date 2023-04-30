@@ -1,3 +1,8 @@
+# 1.1.0
+
+- feat: add `blobToFileList`
+- feat: add `fileToDataUrl`
+
 # 1.0.0
 
 - feat: add `addEventListener`
