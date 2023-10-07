@@ -1,3 +1,7 @@
+# 1.2.0
+
+- feat: add `smartSetInterval`
+
 # 1.1.0
 
 - feat: add `blobToFileList`
