@@ -9,8 +9,6 @@
 export default function addEventListener (element, event, listener, options) {
   element.addEventListener(event, listener, options)
   return () => {
-    if (!options.once) {
-      element.removeEventListener(event, listener, options)
-    }
+    element.removeEventListener(event, listener, options)
   }
 }
