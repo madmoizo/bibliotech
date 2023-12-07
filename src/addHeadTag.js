@@ -9,7 +9,7 @@ export default function addHeadTag (tagName, attributes, onload = null) {
   // Do not add an already existing id
   if (
     attributes.id &&
-    document.querySelector(`#${attributes.id}`)
+    document.getElementById(attributes.id)
   ) {
     return null
   }
@@ -18,7 +18,7 @@ export default function addHeadTag (tagName, attributes, onload = null) {
   document.head.appendChild(el)
 
   if (onload) {
-    el.addEventListener('load', onload)
+    el.onload = onload
   }
 
   for (const attributeName in attributes) {
