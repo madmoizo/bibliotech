@@ -1,4 +1,5 @@
 /**
+ * Check if a string is a data URL
  * @param {string} value
  * @returns {boolean}
  */

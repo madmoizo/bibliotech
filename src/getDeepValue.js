@@ -1,9 +1,8 @@
 import has from './has.js'
 
-
 /**
  * Get a value from an object, create the tree if necessary
- * @param {object} object
+ * @param {Record<string,unknown>} object
  * @param {Array<string>} tree
  * @param {any} [value]
  * @returns {any}

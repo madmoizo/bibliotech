@@ -2,7 +2,6 @@ import isUrl from './isUrl.js'
 import isDataUrl from './isDataUrl.js'
 import parseDataUrl from './parseDataUrl.js'
 
-
 const mimeSearch = {
   webp: 'image/webp',
   jpg: 'image/jpeg',
@@ -27,7 +26,7 @@ export default function getFileMime (file) {
     return mimeSearch[extension] ?? null
   }
   if (isDataUrl(file)) {
-    return (parseDataUrl(file)).mime
+    return parseDataUrl(file).mime
   }
 
   return null

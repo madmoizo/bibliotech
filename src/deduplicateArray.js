@@ -1,6 +1,5 @@
 import isObject from './isObject.js'
 
-
 /**
  * Deduplicate an array of objects
  * @param {Array<any>} array

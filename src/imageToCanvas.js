@@ -2,12 +2,12 @@
  * Draw an Image in a canvas
  * @param {HTMLImageElement} image
  * @param {object} options
- * @param {object} options.width
- * @param {object} options.height
- * @param {object} [options.dx]
- * @param {object} [options.dy]
- * @param {object} [options.dWidth]
- * @param {object} [options.dHeight]
+ * @param {number} options.width
+ * @param {number} options.height
+ * @param {number} [options.dx]
+ * @param {number} [options.dy]
+ * @param {number} [options.dWidth]
+ * @param {number} [options.dHeight]
  * @returns {HTMLCanvasElement}
  */
 export default function imageToCanvas (image, { width, height, dx, dy, dWidth, dHeight }) {

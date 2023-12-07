@@ -1,6 +1,5 @@
 import isNumber from './isNumber.js'
 
-
 /**
  * Check if a value is an integer
  * @param {any} value

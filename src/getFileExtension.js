@@ -2,7 +2,6 @@ import isUrl from './isUrl.js'
 import isDataUrl from './isDataUrl.js'
 import parseDataUrl from './parseDataUrl.js'
 
-
 /**
  * Retrieve the file extension from an URL or data URL
  * @param {string} file
@@ -13,7 +12,7 @@ export default function getFileExtension (file) {
     return file.split(/[#?]/)[0].split('.').pop().trim()
   }
   if (isDataUrl(file)) {
-    return (parseDataUrl(file)).extension
+    return parseDataUrl(file).extension
   }
 
   return null

@@ -1,7 +1,7 @@
 /**
  * Import script on runtime
  * @param {string} tagName
- * @param {object} attributes
+ * @param {Record<string,unknown>} attributes
  * @param {function} onload
  * @returns {HTMLElement}
  */

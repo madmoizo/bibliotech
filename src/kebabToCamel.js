@@ -1,6 +1,5 @@
 import capitalizeFirstLetter from './capitalizeFirstLetter.js'
 
-
 /**
  * Transform kebab-case string to CamelCase
  * @param {string} value

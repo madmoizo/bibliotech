@@ -9,7 +9,6 @@ import isObject from './isObject.js'
 import isString from './isString.js'
 import isTrue from './isTrue.js'
 
-
 const TYPES = {
   // Bypass
   any: () => true,
@@ -26,7 +25,6 @@ const TYPES = {
   false: isFalse,
   true: isTrue
 }
-
 
 /**
  * Check the existence and type validity of a user input

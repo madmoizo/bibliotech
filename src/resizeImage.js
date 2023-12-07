@@ -3,7 +3,6 @@ import isDataUrl from "./isDataUrl.js"
 import parseDataUrl from "./parseDataUrl.js"
 import urlToImage from "./urlToImage.js"
 
-
 /**
  * Resize an image
  * @param {string} src URL or data URL

@@ -1,13 +1,12 @@
 import has from './has.js'
 import isObject from './isObject.js'
 
-
 /**
  * Merge an object into an other with optionals exceptions
- * @param {object} options
- * @param {object} options.source
- * @param {object} options.target
- * @param {object} [options.exceptions={}]
+ * @param {Record<string,unknown>} options
+ * @param {Record<string,unknown>} options.source
+ * @param {Record<string,unknown>} options.target
+ * @param {Record<string,unknown>} [options.exceptions={}]
  * @returns {void}
  */
 export default function mergeObject ({ source, target, exceptions = {} }) {
